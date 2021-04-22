@@ -1,0 +1,44 @@
+$bright-orange: hsl(31, 77%, 52%);
+$dark-cyan: hsl(184, 100%, 22%);
+$very-dark-cyan: hsl(179, 100%, 13%);
+
+$transparent-white: hsla(0, 0%, 100%, 0.75);
+$very-light-gray: hsl(0, 0%, 95%);
+
+.preview-card-one {
+  background-color: $bright-orange;
+}
+
+.preview-card-two {
+  background-color: $dark-cyan;
+}
+
+.preview-card-three {
+  background-color: $very-dark-cyan;
+}
+
+.preview-card-container a {
+  background-color: $very-light-gray;
+  border: 2px solid transparent;
+}
+.btn-one {
+  color: $bright-orange;
+}
+
+.btn-two {
+  color: $dark-cyan;
+}
+
+.btn-three {
+  color: $very-dark-cyan;
+}
+
+.preview-card-container a:hover {
+  background-color: transparent;
+  border: 2px solid $transparent-white;
+  color: $transparent-white;
+}
+.attribution a {
+  color: $bright-orange;
+  text-decoration: none;
+}

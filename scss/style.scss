@@ -1,0 +1,70 @@
+@use "reset" as *;
+@use "colors" as c;
+@use "fonts" as f;
+
+body {
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+main {
+  max-width: 920px;
+}
+
+.preview-card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(305px, 1fr));
+}
+
+.card {
+  padding: 3rem;
+}
+.preview-card-one {
+  border-radius: 0.625rem 0 0 0.625rem;
+}
+
+.preview-card-three {
+  border-radius: 0 0.625rem 0.625rem 0;
+}
+h1 {
+  padding: 2.5rem 0;
+}
+
+p {
+  margin-bottom: 5.625rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.938rem 2rem;
+  border-radius: 50px;
+}
+
+.attribution {
+  margin-top: 3rem;
+}
+
+@media (max-width: 920px) {
+  main {
+    min-width: 375px;
+    width: 90%;
+    margin: 3rem auto;
+  }
+  p {
+    margin-bottom: 2rem;
+  }
+  .preview-card-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .preview-card-one {
+    border-radius: 0.625rem 0.625rem 0 0;
+  }
+
+  .preview-card-three {
+    border-radius: 0 0 0.625rem 0.625rem;
+  }
+}

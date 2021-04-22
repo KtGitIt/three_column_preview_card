@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap");
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.preview-card-one {
+  background-color: #e38826;
+}
+
+.preview-card-two {
+  background-color: #006970;
+}
+
+.preview-card-three {
+  background-color: #004241;
+}
+
+.preview-card-container a {
+  background-color: #f2f2f2;
+  border: 2px solid transparent;
+}
+
+.btn-one {
+  color: #e38826;
+}
+
+.btn-two {
+  color: #006970;
+}
+
+.btn-three {
+  color: #004241;
+}
+
+.preview-card-container a:hover {
+  background-color: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.75);
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.attribution a {
+  color: #e38826;
+  text-decoration: none;
+}
+
+h1 {
+  font-family: "Big Shoulders Display", cursive;
+  color: #f2f2f2;
+  font-size: 2.5rem;
+}
+
+p {
+  font-family: "Lexend Deca", sans-serif;
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 0.938rem;
+  line-height: 1.6;
+}
+
+.preview-card-container a {
+  text-decoration: none;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 0.938rem;
+}
+
+.attribution {
+  font-size: 0.85rem;
+  text-align: center;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+body {
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+main {
+  max-width: 920px;
+}
+
+.preview-card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(305px, 1fr));
+}
+
+.card {
+  padding: 3rem;
+}
+
+.preview-card-one {
+  border-radius: 0.625rem 0 0 0.625rem;
+}
+
+.preview-card-three {
+  border-radius: 0 0.625rem 0.625rem 0;
+}
+
+h1 {
+  padding: 2.5rem 0;
+}
+
+p {
+  margin-bottom: 5.625rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.938rem 2rem;
+  border-radius: 50px;
+}
+
+.attribution {
+  margin-top: 3rem;
+}
+
+@media (max-width: 920px) {
+  main {
+    min-width: 375px;
+    width: 90%;
+    margin: 3rem auto;
+  }
+
+  p {
+    margin-bottom: 2rem;
+  }
+
+  .preview-card-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .preview-card-one {
+    border-radius: 0.625rem 0.625rem 0 0;
+  }
+
+  .preview-card-three {
+    border-radius: 0 0 0.625rem 0.625rem;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
