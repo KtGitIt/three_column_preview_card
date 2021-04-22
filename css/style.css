@@ -118,7 +118,8 @@ p {
 }
 
 .attribution {
-  margin-top: 3rem;
+  position: absolute;
+  bottom: 15%;
 }
 
 @media (max-width: 920px) {
