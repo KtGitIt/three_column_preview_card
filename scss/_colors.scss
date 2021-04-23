@@ -5,6 +5,10 @@ $very-dark-cyan: hsl(179, 100%, 13%);
 $transparent-white: hsla(0, 0%, 100%, 0.75);
 $very-light-gray: hsl(0, 0%, 95%);
 
+body {
+  background-color: $very-light-gray;
+}
+
 .preview-card-one {
   background-color: $bright-orange;
 }
